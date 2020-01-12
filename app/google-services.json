@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "815126000664",
+    "firebase_url": "https://futsalbookapp.firebaseio.com",
+    "project_id": "futsalbookapp",
+    "storage_bucket": "futsalbookapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815126000664:android:a5e5af8e133dfb05baff6d",
+        "android_client_info": {
+          "package_name": "com.example.futsalbookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815126000664-5jnt734lrlq2ifcq44t6n47bn4ttsbeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futsalbookapp",
+            "certificate_hash": "412f7023f24f637765a1e1d0d9a52032d19668b8"
+          }
+        },
+        {
+          "client_id": "815126000664-hu1f5ri0fstrk9moplq6jhsrr3fune5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7fjCpv88IJogqWGWJVlxgWHpSNHbzAuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815126000664-hu1f5ri0fstrk9moplq6jhsrr3fune5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_bg"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                 android:background="@drawable/promo"
+                 android:layout_width="325dp"
+                 android:layout_height="150dp"
+                 android:layout_gravity="center"
+                 android:layout_margin="40dp">
+
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/btn_book1"
+                android:layout_width="325dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_custom"
+                android:fontFamily="@font/segoeui_bold"
+                android:text="Book Now !"
+                android:textAllCaps="false"
+                android:textColor="@color/color_bg"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/segoeui_bold"
+                android:text="Lapangan"
+                android:textColor="@color/color_bg_2"
+                android:textSize="18dp">
+
+            </TextView>
+            <ImageView
+                android:background="@drawable/lap1"
+                android:layout_width="325dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <ImageView
+                android:background="@drawable/lap2"
+                android:layout_width="325dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp">
+            </ImageView>
+            <ImageView
+                android:background="@drawable/lap3"
+                android:layout_width="325dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/segoeui_bold"
+                android:text="Opening Time"
+                android:textColor="@color/color_bg_2"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="SUNDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="MONDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="TUESDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="WEDNESDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="THURSDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="FRIDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="SATURDAY"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/segoeui_bold"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:text="08:00-22.00"
+                android:fontFamily="@font/segoeui"
+                android:textColor="@color/color_bg_2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/segoeui_bold"
+                android:text="Fasilitas"
+                android:textColor="@color/color_bg_2"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="161dp"
+                android:layout_height="51dp"
+                android:background="@drawable/fasilitas_icon_m"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/segoeui_bold"
+                android:text="Contact"
+                android:textColor="@color/color_bg_2"
+                android:textSize="18dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/wa_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/wa_icon" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:text="082244445828"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/segoeui_bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/ig_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ig_icon"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:text="Futsal_Kuy"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/segoeui_bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/fb_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/fb_icon"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:text="Futsal_Kuy"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/segoeui_bold"
+                        android:clickable="true"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+ </androidx.constraintlayout.widget.ConstraintLayout>
